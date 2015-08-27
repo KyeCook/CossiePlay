@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*Styles that are too be used for whole site are to be placed in here, too be changed with individual divs if necessary*/
 body {
 	background-color: #000000;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -13,6 +14,7 @@ body {
 	
 	
 }
+/*This div is for navigation bar*/
 #nav {
 	line-height: 50px;
 	background-color: #FF9600;
@@ -50,20 +52,21 @@ body {
 	border-style: none none solid;
 	border-color: #000000;
 	border-bottom-width: thin;
+	
 }
+/*Allows for the a block to change colour when hovered over*/
 #nav a:hover {
 	background-color: #FF6700;
 	padding-left: 5px;
+	
 }
+/*This div is for the main text section*/
 #section{
 	font-size: x-large;
 	width: 800px;
 	margin-left: 235px;
 }
-#section img{
-float:left;	
-	
-}
+
 a{
 color:#FF9600
 	
@@ -79,6 +82,7 @@ color: #FF6700;
 	border-right-color: #FDB500;
 	
 }
+/*This div is for the main title of each page*/
 #header {
 	background-color: #FF9600;
 	color: #000000;
@@ -99,7 +103,7 @@ table, th, td {
     border-bottom: 1px solid orange;
 	
 }
-
+/*This Div allows the image to be moved without needing to stay to the limits of another div*/
 #aside{
 width:850;
 float:right;
@@ -107,15 +111,17 @@ padding-top:50px;
 padding-bottom:15px;
 
 }
-
+/*This div allows for the table within that page to be distorted to fit within the page better, whilst not affecting other tables*/
 #tablediv{
 width:60%;	
 
 }
+
 #tablediv tr td{
 padding-left:30px;
 	
 }
+/*This allows for the first column of the table to be manipulated*/
 #tablediv td:first-child {
     text-align: right;
 }
