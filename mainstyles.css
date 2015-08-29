@@ -11,8 +11,8 @@ body {
 	border-bottom: 10px ridge #FF9600;
 	width: 1055px;
 	height: 1500px;
-	
-	
+	margin-right:auto;
+	margin-left:auto;
 }
 /*This div is for navigation bar*/
 #nav {
@@ -31,7 +31,6 @@ body {
 	font-size: x-large;
 	margin-top: -42px;
 	
-
 }
 
 #nav ul {
@@ -54,7 +53,7 @@ body {
 	border-bottom-width: thin;
 	
 }
-/*Allows for the a block to change colour when hovered over*/
+/*Allows for the anchor(a) block to change colour when hovered over*/
 #nav a:hover {
 	background-color: #FF6700;
 	padding-left: 5px;
@@ -62,6 +61,13 @@ body {
 }
 /*This div is for the main text section*/
 #section{
+	font-size: x-large;
+	width: 800px;
+	margin-left: 235px;
+}
+
+/*This div is for the main text section that lays beneath photos*/
+#section2{
 	font-size: x-large;
 	width: 800px;
 	margin-left: 235px;
@@ -75,6 +81,10 @@ a:hover{
 color: #FF6700;	
 
 }
+a:active{
+color:#D40B0F;	
+}
+
 #header h1 {
 	border-bottom-style: none;
 	border-bottom-color: #FF9E00;
@@ -109,28 +119,16 @@ width:850;
 float:right;
 padding-top:50px;
 padding-bottom:15px;
-
-}
-/*This div allows for the table within that page to be distorted to fit within the page better, whilst not affecting other tables*/
-#tablediv{
-width:60%;	
+padding-right:2px;
 
 }
 
-#tablediv tr td{
-padding-left:30px;
-	
-}
-/*This allows for the first column of the table to be manipulated*/
-#tablediv td:first-child {
-    text-align: right;
+/*Creates contact information table, without using table property as data is not tabular*/
+.contact-title{
+width:200px;
+display:inline-block;
+text-align:right;
+padding-right:50px;	
+
 }
 
-
-/*NEED HELP!! |For page centre|
-/*
-#wrap { 
-	width: 1055px; 
-	margin: 0 auto;
-	
-}*/
